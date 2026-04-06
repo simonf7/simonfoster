@@ -41,13 +41,7 @@
 @layer base {
   html {
     @apply scroll-smooth;
-    scroll-padding-top: 28px;
-  }
-
-  @media (min-width: 640px) {
-    html {
-      scroll-padding-top: 20px;
-    }
+    scroll-padding-top: 32px;
   }
 
   body {
@@ -132,20 +126,19 @@
   }
 
   .emoji {
-    @apply inline-block mr-3 text-[1.4em] align-middle transition-transform duration-300;
+    @apply inline-block mr-4 text-[1.8em] align-middle transition-all duration-300;
+    filter: drop-shadow(0 0 12px rgba(0, 212, 255, 0.3));
   }
 
   .glass-card:hover .emoji {
-    @apply scale-125;
+    @apply scale-110;
+    filter: drop-shadow(0 0 20px rgba(0, 212, 255, 0.5));
   }
 
   .tech-tag {
     @apply text-[0.8rem] px-3 py-1 bg-white/5 border border-glass-border rounded-md text-text-dim whitespace-nowrap;
   }
 
-  .nav-scrolled {
-    @apply bg-[rgba(10,10,10,0.8)] backdrop-blur-md border-b border-glass-border;
-  }
 
   .sub-roles {
     @apply my-6 pl-4 border-l-2 border-accent-deep flex flex-col gap-6;
