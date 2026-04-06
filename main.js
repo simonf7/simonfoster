@@ -16,10 +16,7 @@ const revealElements = document.querySelectorAll('[data-reveal]');
 const revealObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
-            const delay = entry.target.getAttribute('data-delay') || 0;
-            setTimeout(() => {
-                entry.target.classList.add('active');
-            }, delay);
+            entry.target.classList.add('active');
             revealObserver.unobserve(entry.target);
         }
     });
