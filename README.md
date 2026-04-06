@@ -17,9 +17,8 @@ A premium, high-performance portfolio website for **Simon Foster**, a Technical 
 - **Framework**: [Vite](https://vitejs.dev/)
 - **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
 - **Logic**: Vanilla JavaScript (ES Module)
-- **Icons**: Custom SVG icons
+- **Testing**: [Playwright](https://playwright.dev/) & [Axe-core](https://github.com/dequelabs/axe-core-playwright)
 - **Animations**: CSS Transitions & JavaScript Intersection Observer API
-- **Tooling**: PostCSS, Autoprefixer
 
 ## 📂 Project Structure
 
@@ -73,6 +72,26 @@ Preview the production build locally:
 ```bash
 npm run preview
 ```
+
+## 🧪 Testing
+
+This project includes a professional-grade automated testing suite to ensure high uptime and accessibility standards.
+
+### Running Tests
+
+```bash
+# Run all smoke and functional tests
+npm run test
+
+# Run the automated accessibility audit (WCAG AA)
+npm run test:accessibility
+```
+
+### Test Coverage
+- **Smoke Tests**: Verifies that hero content, experience cards, and all main sections are present.
+- **Navigation**: Confirmed section-scrolling and deep-linking via URL hashes.
+- **External Links**: Safety check for all social links (`rel="noopener noreferrer"`).
+- **Accessibility**: Continuous automated audits for contrast, semantic roles, and landmarks.
 
 ## 📝 License
 
