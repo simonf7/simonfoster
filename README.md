@@ -1,4 +1,6 @@
-# Simon Foster | Portfolio Website
+# Simon Foster - Technical Leader Portfolio
+
+[![Test & Deploy to GitHub Pages](https://github.com/simonf7/simonfoster/actions/workflows/deploy.yml/badge.svg)](https://github.com/simonf7/simonfoster/actions/workflows/deploy.yml)
 
 A premium, high-performance portfolio website for **Simon Foster**, a Technical Leader and Full-Stack Engineer. Built with a modern, minimalist aesthetic and optimised for speed and responsiveness.
 
@@ -72,6 +74,17 @@ Preview the production build locally:
 ```bash
 npm run preview
 ```
+
+### 🚀 Automation: GitHub Actions (Recommended)
+
+This project is pre-configured with a unified CI/CD pipeline in **`.github/workflows/deploy.yml`**.
+
+1.  **Push to GitHub**: Push your local changes to a new repository.
+2.  **Enable GitHub Actions Deployment**:
+    - Go to your repository **Settings**.
+    - Navigate to **Pages** in the sidebar.
+    - Under **Build and deployment > Source**, select **"GitHub Actions"** instead of "Deploy from a branch".
+3.  **Automatic Updates**: Every time you push to the `main` branch, your tests will run. If they pass, the site will automatically redeploy.
 
 ## 🧪 Testing
 
