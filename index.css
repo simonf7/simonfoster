@@ -227,6 +227,7 @@
 
   .hero p {
     @apply text-lg md:text-2xl text-text-dim max-w-[800px] mx-auto;
+    text-wrap: balance;
   }
 
   .role-badge {

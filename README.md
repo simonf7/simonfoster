@@ -1,14 +1,16 @@
 # Simon Foster | Portfolio Website
 
-A premium, high-performance portfolio website for **Simon Foster**, a Technical Leader and Full-Stack Engineer. Built with a modern, minimalist aesthetic and optimized for speed and responsiveness.
+A premium, high-performance portfolio website for **Simon Foster**, a Technical Leader and Full-Stack Engineer. Built with a modern, minimalist aesthetic and optimised for speed and responsiveness.
 
 ## 🚀 Features
 
 - **Responsive Design**: Fluid layout that adapts seamlessly to desktop, tablet, and mobile devices.
-- **Scroll Animations**: Smooth reveal animations using `IntersectionObserver` for an engaging user experience.
-- **Modern Tech Stack**: Leveraging Vite for fast development and Tailwind CSS (v4) for utility-first styling.
-- **Glassmorphism UI**: High-fidelity design with glassmorphic cards and dynamic background gradients.
-- **SEO Optimized**: Includes meta tags, semantic HTML, and structured content for search engine visibility.
+- **Accessibility (A11y)**: WCAG AA compliant with full ARIA landmark support, "Skip to Content" links, and high-contrast `:focus-visible` states.
+- **Micro-Animations**: Sophisticated CSS-native staggered reveal effects for a high-end, synchronous user experience.
+- **Modern Tech Stack**: Leveraging Vite for high-performance builds and Tailwind CSS v4 for a cutting-edge CSS architecture.
+- **Premium Glassmorphism**: High-fidelity design with saturated glassmorphic cards and dynamic, animated background gradients.
+- **UK English Standard**: Localised throughout for regional consistency and professional clarity.
+- **SEO Optimised**: Includes semantic HTML, meta descriptions, and structured data for maximum search engine visibility.
 
 ## 🛠️ Technology Stack
 
