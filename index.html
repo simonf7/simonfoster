@@ -34,8 +34,12 @@
         <div class="max-w-[1100px] mx-auto px-8">
             <div class="role-badge" data-reveal="fade-up" data-delay="100">Lead Developer • Full-Stack Engineer</div>
             <h1 data-reveal="fade-up" data-delay="200">Simon <span class="gradient-text">Foster</span></h1>
-            <p data-reveal="fade-up" data-delay="300">Technical Leader with a long track record of turning messy,
-                outdated, or complex systems into clean, scalable, high-performing platforms.</p>
+            <p data-reveal="fade-up" data-delay="300" class="mb-6">Technical Leader with a long track record of turning messy,
+                outdated, or complex systems into clean, scalable platforms. A hands-on engineer focused on solving real
+                problems, guiding teams, and delivering solutions that move businesses forward.</p>
+            <p data-reveal="fade-up" data-delay="350">I’ve led development teams, modernised legacy stacks, and built scalable
+                platforms across PHP, JavaScript, and cloud-native environments. I thrive where technical depth meets
+                practical decision-making and continuous improvement.</p>
             <div class="hero-btns" data-reveal="fade-up" data-delay="400">
                 <a href="#experience" class="btn btn-primary">View Experience</a>
                 <a href="mailto:me@simonfoster.co.uk" class="btn btn-outline" rel="noopener noreferrer">Get in Touch</a>
@@ -51,7 +55,12 @@
     <section id="focus" class="max-w-[1100px] mx-auto px-8">
         <h2 class="gradient-text" data-reveal>Strategic Technical Focus</h2>
         <div class="focus-grid">
-            <div class="glass-card" data-reveal="fade-up" style="--delay: 0ms">
+            <div class="glass-card md:col-span-2" data-reveal="fade-up" style="--delay: 0ms">
+                <h3><span class="emoji" aria-hidden="true">💎</span> Engineering Philosophy</h3>
+                <p>I enjoy building things that last, supporting the people who build them, and making technology feel
+                    like an enabler rather than a blocker.</p>
+            </div>
+            <div class="glass-card" data-reveal="fade-up" style="--delay: 100ms">
                 <h3><span class="emoji" aria-hidden="true">🚀</span> Event-Driven Architecture</h3>
                 <p>Expert in building scalable microservices and decoupled architectures using AWS (Lambda, SQS, SNS,
                     DynamoDB), Kubernetes, and Docker.</p>
@@ -76,14 +85,15 @@
 
     <section id="experience" class="max-w-[1100px] mx-auto px-8">
         <h2 class="gradient-text" data-reveal>Experience</h2>
-        <div class="timeline">
+        <div class="experience-grid">
             <!-- Travel Chapter -->
-            <div class="timeline-item" data-reveal>
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">Nov 2022 - Present</div>
-                <div class="timeline-content">
-                    <h3>Lead Developer</h3>
-                    <div class="timeline-company">Travel Chapter | Nov 2022 - Present</div>
+            <div class="glass-card" data-reveal="fade-up" style="--delay: 100ms">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Lead Developer</h3>
+                        <span class="experience-date">Nov 2022 - Present</span>
+                    </div>
+                    <div class="experience-company">Travel Chapter</div>
                     <p>As a hands-on Lead Developer, my main focus is the technical integration and continuation of two
                         technologically different business stacks, architecting solutions that ensure seamless data
                         continuity and zero service disruption. I collaborate closely with wider business stakeholders
@@ -107,12 +117,13 @@
             </div>
 
             <!-- Original Cottage Company: Lead -->
-            <div class="timeline-item" data-reveal>
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">Sept 2021 - Oct 2022</div>
-                <div class="timeline-content">
-                    <h3>Lead Developer</h3>
-                    <div class="timeline-company">The Original Cottage Company | Sept 2021 - Nov 2022</div>
+            <div class="glass-card" data-reveal="fade-up" style="--delay: 200ms">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Lead Developer</h3>
+                        <span class="experience-date">Sept 2021 - Oct 2022</span>
+                    </div>
+                    <div class="experience-company">The Original Cottage Company</div>
                     <p>In this leadership role, I directed a team of developers in close partnership with product owners
                         and business analysts to deliver high-impact solutions across customer focused products.
                         Translating stakeholder requirements into technical reality, ensuring that innovative features
@@ -133,12 +144,13 @@
             </div>
 
             <!-- Original Cottage Company: Developer -->
-            <div class="timeline-item" data-reveal>
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">May 2019 - Sept 2021</div>
-                <div class="timeline-content">
-                    <h3>Developer</h3>
-                    <div class="timeline-company">The Original Cottage Company | May 2019 - Sept 2021</div>
+            <div class="glass-card" data-reveal="fade-up" style="--delay: 300ms">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Developer</h3>
+                        <span class="experience-date">May 2019 - Sept 2021</span>
+                    </div>
+                    <div class="experience-company">The Original Cottage Company</div>
                     <p>My primary focus was the continuous improvement of the group’s digital presence, where I
                         developed new features aimed at optimising the customer journey and driving user engagement. I
                         performed critical maintenance across the web estate and worked extensively with the core
@@ -159,19 +171,20 @@
             </div>
 
             <!-- COA Ltd: The Long Chapter -->
-            <div class="timeline-item" data-reveal>
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">Aug 1995 - May 2019</div>
-                <div class="timeline-content">
-                    <h3>Technical Director / Senior Developer</h3>
-                    <div class="timeline-company">Cambridge Occupational Analysts (COA Ltd) | Aug 1995 - May 2019</div>
-                    <p class="mb-8">As Technical Director, I had accountability for the IT department
+            <div class="glass-card" data-reveal="fade-up" style="--delay: 400ms">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Technical Director / Senior Developer</h3>
+                        <span class="experience-date">Aug 1995 - May 2019</span>
+                    </div>
+                    <div class="experience-company">Cambridge Occupational Analysts (COA Ltd)</div>
+                    <p>As Technical Director, I had accountability for the IT department
                         and was involved with product strategy, bridging the gap between directorial vision and
                         technical execution. My primary focus was spearheading the digital transformation of the
                         company’s core product, successfully migrating a legacy SQL Server and Access-based ecosystem
                         into a modern, high-performance web application driven by RESTful APIs, Laravel, and Angular.
                     </p>
-                    <p class="mb-10">I oversaw the maintenance of all existing products and
+                    <p>I oversaw the maintenance of all existing products and
                         infrastructure while providing technical mentorship and leadership to the development team. By
                         modernising our internal workflows and infrastructure via VMWare and Linux environments, I
                         ensured high system availability and a scalable foundation for new product development.</p>
@@ -209,12 +222,13 @@
             </div>
 
             <!-- Freelance Consultant -->
-            <div class="timeline-item" data-reveal>
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">Jan 2000 - Dec 2018</div>
-                <div class="timeline-content">
-                    <h3>Small Business Consultant</h3>
-                    <div class="timeline-company">Freelance Consultancy | Jan 2000 - Dec 2018</div>
+            <div class="glass-card" data-reveal="fade-up" style="--delay: 500ms">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Small Business Consultant</h3>
+                        <span class="experience-date">Jan 2000 - Dec 2018</span>
+                    </div>
+                    <div class="experience-company">Freelance Consultancy</div>
                     <p>Provided strategic IT support and consultancy to small businesses, with a focus on modernising
                         legacy workflows through networking, web design, and hosting solutions. I acted as a technical
                         partner, helping clients optimise their existing technology stacks while offering scalable
