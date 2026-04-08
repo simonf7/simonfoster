@@ -100,6 +100,10 @@
     @apply mb-4;
   }
 
+  .glass-card h3:has(.emoji) {
+    @apply flex items-start gap-3;
+  }
+
   .glass-card::before {
     content: '';
     @apply absolute top-0 left-0 right-0 h-px z-10;
@@ -138,7 +142,8 @@
   }
 
   .emoji {
-    @apply inline-block mr-4 text-[1.8em] align-middle transition-all duration-300;
+    @apply inline-block shrink-0 text-[1.5em] transition-all duration-300;
+    line-height: 1.1;
     filter: drop-shadow(0 0 12px rgba(0, 212, 255, 0.3));
   }
 
@@ -258,8 +263,7 @@
   .focus-grid,
   .interests-grid,
   .education-grid {
-    @apply grid gap-6 md:gap-8;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr));
+    @apply grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8;
   }
 
   /* Navigation */
