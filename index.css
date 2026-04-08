@@ -208,7 +208,7 @@
 
   /* Hero Section */
   .hero {
-    @apply h-screen flex items-center justify-center text-center;
+    @apply min-h-[100svh] relative flex flex-col justify-center items-center text-center pt-[120px] pb-20;
   }
 
   .hero h1 {
@@ -280,7 +280,7 @@
   }
 
   .nav-links {
-    @apply flex gap-4 sm:gap-8 text-xs sm:text-base;
+    @apply flex flex-wrap justify-center gap-4 sm:gap-8 text-[0.8rem] sm:text-base;
   }
 
   .nav-links a {
