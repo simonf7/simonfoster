@@ -111,9 +111,14 @@
   }
 
   .glass-card:hover {
-    @apply -translate-y-2 bg-[rgba(255,255,255,0.04)];
+    @apply -translate-y-2 scale-[1.02] bg-[rgba(255,255,255,0.04)] z-10;
+    transition-duration: 300ms;
     border-color: rgba(0, 212, 255, 0.2);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 212, 255, 0.05);
+  }
+
+  .glass-card:hover .tech-tag {
+    @apply border-[rgba(0,212,255,0.4)] bg-[rgba(0,212,255,0.05)] text-white shadow-[0_0_10px_rgba(0,212,255,0.1)];
   }
 
   .btn {
@@ -148,8 +153,8 @@
   }
 
   .glass-card:hover .emoji {
-    @apply scale-110;
-    filter: drop-shadow(0 0 20px rgba(0, 212, 255, 0.5));
+    @apply scale-125 -translate-y-1;
+    filter: drop-shadow(0 5px 25px rgba(0, 212, 255, 0.7));
   }
 
   .tech-tags {
