@@ -45,32 +45,37 @@ A premium, high-performance portfolio website for **Simon Foster**, a Technical 
 ### Installation
 
 1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd simonfoster
-   ```
+
+    ```bash
+    git clone <repository-url>
+    cd simonfoster
+    ```
 
 2. Install dependencies:
-   ```bash
-   npm install
-   ```
+    ```bash
+    npm install
+    ```
 
 ### Development
 
 Run the development server:
+
 ```bash
 npm run dev
 ```
+
 The site will be available at `http://localhost:5173`.
 
 ### Production Build
 
 Generate the production-ready assets in the `dist` folder:
+
 ```bash
 npm run build
 ```
 
 Preview the production build locally:
+
 ```bash
 npm run preview
 ```
@@ -101,6 +106,7 @@ npm run test:accessibility
 ```
 
 ### Test Coverage
+
 - **Smoke Tests**: Verifies that hero content, experience cards, and all main sections are present.
 - **Navigation**: Confirmed section-scrolling and deep-linking via URL hashes.
 - **External Links**: Safety check for all social links (`rel="noopener noreferrer"`).
