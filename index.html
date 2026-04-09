@@ -30,20 +30,42 @@
     </nav>
 
     <header id="about" class="hero">
-        <div class="max-w-[1100px] mx-auto px-8">
-            <div class="role-badge" data-reveal="fade-up" data-delay="100">Lead Developer • Full-Stack Engineer</div>
-            <h1 data-reveal="fade-up" data-delay="200">Simon <span class="gradient-text">Foster</span></h1>
-            <p data-reveal="fade-up" data-delay="300" class="mb-6">Technical Leader with a long track record of turning
-                messy,
-                outdated, or complex systems into clean, scalable platforms. A hands-on engineer focused on solving real
-                problems, guiding teams, and delivering solutions that move businesses forward.</p>
-            <p data-reveal="fade-up" data-delay="350">I’ve led development teams, modernised legacy stacks, and built
-                scalable
-                platforms across PHP, JavaScript, and cloud-native environments. I thrive where technical depth meets
-                practical decision-making and continuous improvement.</p>
-            <div class="hero-btns" data-reveal="fade-up" data-delay="400">
-                <a href="#experience" class="btn btn-primary">View Experience</a>
-                <a href="mailto:me@simonfoster.co.uk" class="btn btn-outline" rel="noopener noreferrer">Get in Touch</a>
+        <div class="max-w-[1100px] mx-auto px-8 w-full flex flex-col-reverse lg:flex-row items-center gap-8 lg:gap-16">
+            <div class="flex-1 text-center lg:text-left w-full">
+                <div class="role-badge flex flex-wrap justify-center lg:justify-start gap-x-2 gap-y-1 !normal-case !tracking-normal !text-[1rem] bg-transparent border-none !px-0 !mb-4" data-reveal="fade-up" data-delay="100">
+                    <span class="text-accent-primary font-semibold">Experienced Full-Stack Engineer</span>
+                    <span class="text-glass-border hidden sm:inline">|</span>
+                    <span class="text-accent-primary font-semibold">Technical Leader</span>
+                    <span class="text-glass-border hidden sm:inline">|</span>
+                    <span class="text-text-main font-medium">30 Years of Digital Transformation</span>
+                </div>
+                <h1 data-reveal="fade-up" data-delay="200" class="!mb-4">Simon <span class="gradient-text">Foster</span></h1>
+                <div class="text-text-dim font-mono text-sm tracking-tight mb-8" data-reveal="fade-up" data-delay="250">
+                    AWS <span class="text-accent-primary mx-1">•</span> TypeScript <span class="text-accent-primary mx-1">•</span> PHP <span class="text-accent-primary mx-1">•</span> React
+                </div>
+                <p data-reveal="fade-up" data-delay="300" class="mb-6">Technical Leader with a long track record of
+                    turning
+                    messy,
+                    outdated, or complex systems into clean, scalable platforms. A hands-on engineer focused on solving
+                    real
+                    problems, guiding teams, and delivering solutions that move businesses forward.</p>
+                <p data-reveal="fade-up" data-delay="350">I’ve led development teams, modernised legacy stacks, and
+                    built
+                    scalable
+                    platforms across PHP, JavaScript, and cloud-native environments. I thrive where technical depth
+                    meets
+                    practical decision-making and continuous improvement.</p>
+                <div class="hero-btns" data-reveal="fade-up" data-delay="400">
+                    <a href="#experience" class="btn btn-primary">View Experience</a>
+                    <a href="mailto:me@simonfoster.co.uk" class="btn btn-outline" rel="noopener noreferrer">Get in
+                        Touch</a>
+                </div>
+            </div>
+
+            <div class="hero-image-wrapper" data-reveal="fade-in" data-delay="300">
+                <div class="profile-frame">
+                    <img src="/profile.jpg" alt="Simon Foster" class="profile-image" />
+                </div>
             </div>
         </div>
         <div class="scroll-indicator" data-reveal="fade-in" aria-hidden="true">
@@ -116,6 +138,7 @@
                         </p>
                         <div class="tech-tags">
                             <span class="tech-tag">PHP (Symfony)</span>
+                            <span class="tech-tag">SQL (MySQL)</span>
                             <span class="tech-tag">TypeScript (Node/React)</span>
                             <span class="tech-tag">AWS (CDK)</span>
                             <span class="tech-tag">Kubernetes</span>
@@ -148,6 +171,7 @@
                             business needs with maximum efficiency.</p>
                         <div class="tech-tags">
                             <span class="tech-tag">PHP (Symfony)</span>
+                            <span class="tech-tag">SQL (MySQL)</span>
                             <span class="tech-tag">JavaScript (React)</span>
                             <span class="tech-tag">AWS Serverless</span>
                             <span class="tech-tag">Bitbucket Pipelines</span>
@@ -178,6 +202,7 @@
                             Drupal-based environments.</p>
                         <div class="tech-tags">
                             <span class="tech-tag">PHP (Symfony)</span>
+                            <span class="tech-tag">SQL (MySQL)</span>
                             <span class="tech-tag">JavaScript (React)</span>
                             <span class="tech-tag">AWS Serverless</span>
                             <span class="tech-tag">Drupal</span>
@@ -233,7 +258,7 @@
                         <div class="tech-tags">
                             <span class="tech-tag">PHP (Laravel)</span>
                             <span class="tech-tag">Angular (5+)</span>
-                            <span class="tech-tag">SQL (Server)</span>
+                            <span class="tech-tag">SQL (SQL Server)</span>
                             <span class="tech-tag">Linux (Apache/NGINX)</span>
                             <span class="tech-tag">VMWare</span>
                             <span class="tech-tag">VB6 / VBA</span>
@@ -258,7 +283,8 @@
                             partner, helping clients optimise their existing technology stacks while offering scalable
                             suggestions for future-proofing their digital presence through cloud technologies.</p>
                         <div class="tech-tags">
-                            <span class="tech-tag">PHP (MySQL)</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
                             <span class="tech-tag">HTML/CSS</span>
                             <span class="tech-tag">JavaScript</span>
                             <span class="tech-tag">WordPress</span>
@@ -352,7 +378,7 @@
             </div>
         </footer>
 
-    <script type="module" src="./main.js"></script>
+        <script type="module" src="./main.js"></script>
 </body>
 
 </html>

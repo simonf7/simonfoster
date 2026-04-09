@@ -218,24 +218,42 @@
 
   /* Hero Section */
   .hero {
-    @apply min-h-[100svh] relative flex flex-col justify-center items-center text-center pt-[120px] pb-20;
+    @apply min-h-[100svh] relative flex flex-col justify-center items-center pt-[100px] lg:pt-[120px] pb-20;
   }
 
   .hero h1 {
-    @apply text-5xl md:text-8xl mb-8 md:mb-10;
+    @apply text-5xl md:text-6xl lg:text-7xl mb-8 lg:mb-8 text-center lg:text-left;
   }
 
   .hero p {
-    @apply text-lg md:text-2xl text-text-dim max-w-[800px] mx-auto;
+    @apply text-lg lg:text-2xl text-text-dim max-w-[800px] text-center lg:text-left mx-auto lg:mx-0;
     text-wrap: balance;
   }
 
   .role-badge {
-    @apply inline-block px-6 py-2 bg-card-bg border border-glass-border rounded-full text-[0.9rem] font-semibold uppercase tracking-widest mb-8 text-accent-primary;
+    @apply inline-block px-6 py-2 bg-card-bg border border-glass-border rounded-full text-[0.9rem] font-semibold uppercase tracking-widest mb-8 text-accent-primary text-center;
   }
 
   .hero-btns {
-    @apply flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center mt-12 md:mt-20;
+    @apply flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center lg:justify-start mt-10 lg:mt-16;
+  }
+
+  .hero-image-wrapper {
+    @apply w-56 h-56 md:w-72 md:h-72 lg:w-[260px] lg:h-[260px] shrink-0 relative mx-auto lg:mx-0;
+  }
+
+  .profile-frame {
+    @apply w-full h-full rounded-full p-2 border-[1px] border-glass-border relative transition-[var(--transition-slow)] bg-card-bg backdrop-blur-md;
+    box-shadow: 0 0 30px rgba(0, 212, 255, 0.05);
+  }
+  
+  .profile-frame:hover {
+    @apply scale-[1.03] border-accent-primary/40 -translate-y-2;
+    box-shadow: 0 15px 40px rgba(0, 212, 255, 0.2);
+  }
+
+  .profile-image {
+    @apply w-full h-full object-cover rounded-full relative z-10;
   }
 
   /* Scroll Indicator */
