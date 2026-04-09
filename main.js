@@ -1,4 +1,3 @@
-import './index.css';
 
 // Navbar Scroll Effect
 const navbar = document.getElementById('navbar');
